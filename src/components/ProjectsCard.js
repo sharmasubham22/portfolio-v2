@@ -20,7 +20,6 @@ export default function ProjectCard(props) {
           width: "100%",
           bgcolor: "var(--background-color)",
           border: "1px solid var(--border-color)",
-          height: "350px",
         }}
         id="project-card"
       >
