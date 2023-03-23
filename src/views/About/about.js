@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import { Container, Typography } from '@mui/material';
-import pic from '../../images/ppic.png';
+import pic from '../../images/pic2.jpg';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 

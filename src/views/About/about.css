@@ -35,7 +35,7 @@ grid-template-areas: 'content1 content2'
 .grid-item-2 {
   grid-area: content2;
   transition: 0.3s ease-in-out;
-  padding: 15% 0;
+  /* padding: 15% 0; */
   /* border-radius: 50% 50% 0 0;
   background-color: #967dc1; */
 }
@@ -50,7 +50,7 @@ display: inline-block;
   vertical-align: middle;
    /* mix-blend-mode: multiply; */
   filter: grayscale(100%) contrast(100%);
-  /* border-radius: 50% 50% 0 0; */
+  border-radius: 50% 50% 0 0;
   transition: 0.3s ease-in-out;
   /* margin-bottom: -10px; */
 

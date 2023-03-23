@@ -1,19 +1,20 @@
-import { Typography, Grid, Container, Link } from "@mui/material";
+import { Typography, Grid, Container } from "@mui/material";
 import Chip from "@mui/material/Chip";
 import React from "react";
 import "./projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faHeart,
+  faHeart, faAnglesRight
 } from "@fortawesome/free-solid-svg-icons";
 import Marquee from "../../components/marquee";
 import projectData from '../../data/projects.json';
 import ProjectCard from "../../components/ProjectsCard";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <>
-      <Container>
+      <Container sx={{pb:8}}>
         <Chip
           label="Projects"
           variant="outlined"
@@ -46,9 +47,13 @@ function Projects() {
           ))}
         </Grid>
       </Container>
-      <Link href="/contact">
-        <Marquee />
-      </Link>
+      <div className="footer">
+        <Link className="connect" to="/contact">
+          Get in Touch &nbsp;
+          <FontAwesomeIcon icon={faAnglesRight} />
+        </Link>
+      </div>
+      <Link href="/contact">{/* <Marquee /> */}</Link>
       <Typography
         textAlign="center"
         sx={{

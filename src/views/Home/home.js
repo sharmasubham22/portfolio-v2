@@ -101,9 +101,16 @@ function Home() {
         <Skills />
 
         <div className="cursor"></div>
-        <Link to="/contact">
-          <Marquee />
-        </Link>
+        <div className='footer'>
+          <Link
+            className="connect"
+            to="/contact"
+          >
+            Get in Touch &nbsp;
+            <FontAwesomeIcon icon={faAnglesRight} />
+          </Link>
+        </div>
+        <Link to="/contact">{/* <Marquee /> */}</Link>
         <Typography
           textAlign="center"
           sx={{

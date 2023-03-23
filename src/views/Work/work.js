@@ -13,7 +13,8 @@ function Work() {
           id="page-head"
           fontSize={{
             lg: 42,
-            xs: 36,
+            sm:32,
+            xs: 26,
           }}
           sx={{ py: 8, display: "flex" }}
         >
@@ -28,7 +29,6 @@ function Work() {
                 bgcolor: "var(--background-color)",
                 border: "1px solid var(--border-color)",
               }}
-          
             >
               <CardContent sx={{ p: 5 }}>
                 <Typography
@@ -40,7 +40,11 @@ function Work() {
                 </Typography>
                 <Typography
                   gutterBottom
-                  variant="h4"
+                  fontSize={{
+                    lg: 32,
+                    sm:28,
+                    xs: 22,
+                  }}
                   id="company-name"
                   color="var(--text-color)"
                   component="div"
@@ -106,7 +110,11 @@ function Work() {
                 </Typography>
                 <Typography
                   gutterBottom
-                  variant="h4"
+                  fontSize={{
+                    lg: 32,
+                    sm:28,
+                    xs: 22,
+                  }}
                   id="company-name"
                   color="var(--text-color)"
                   component="div"
@@ -146,8 +154,9 @@ function Work() {
                 >
                   SkillSanta is a provider of a platform for competency
                   building. It educates people about skills in demand in their
-                  locality or anywhere they wish, helps them make an
-                  informed decision regarding what and how they should be learning those skills.
+                  locality or anywhere they wish, helps them make an informed
+                  decision regarding what and how they should be learning those
+                  skills.
                 </Typography>
               </CardContent>
             </Card>

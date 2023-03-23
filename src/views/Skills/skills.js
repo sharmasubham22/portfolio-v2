@@ -75,7 +75,8 @@ function Skills() {
           id="page-head"
           fontSize={{
             lg: 42,
-            xs: 36,
+            sm: 32,
+            xs: 26,
           }}
           sx={{ py: 8, display: "flex" }}
         >
