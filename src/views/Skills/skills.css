@@ -1,0 +1,75 @@
+@font-face {
+    font-family: shapiro-air;
+    src: url(../../fonts/Shapiro\ 97\ Air\ Extd.otf);
+}
+
+
+#skills{
+    margin: auto;
+    margin-top: 5%;
+    font-size: 48px;
+  transition: 0.3s ease-in-out;
+}
+
+#skills-tab{
+   display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#list-item{
+  background-color:var(--border-color); 
+  border-radius:10px; 
+  font-size:24px; 
+  margin:5px;
+}
+
+[data-title] {
+   /*optional styling*/
+  font-size: 30px; /*optional styling*/
+  position: relative;
+   
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: -26px;
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background: var(--highlight-color);
+  color: #fff;
+  font-size: 22px;
+  font-family: "Sono";
+  font-weight: bold;
+  white-space: nowrap;
+ 
+}
+
+#big-head{
+font-family: shapiro-air;
+color: var(--highlight-color);
+text-transform: uppercase;
+text-align: center;
+}
+/* [data-title]:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+  display: inline-block;
+  color: var(--text-color);
+  border: 8px solid transparent;	
+  border-bottom: 8px solid var(--highlight-color);
+} */
+
+/* .big-head{
+    position: absolute;
+    left:15%;
+    font-size: 275px;
+    font-family: "monoton";
+    color: var(--border-color);
+  
+} */

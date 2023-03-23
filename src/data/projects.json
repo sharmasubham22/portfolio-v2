@@ -1,0 +1,46 @@
+[
+    {
+      "id":1,
+      "pname": "Halifax Foodie",
+      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "ptool1": "ReactJS",
+      "ptool2": "NodeJS",
+      "ptool3": "AWS",
+      "ptool4": "GCP",
+      "git": "",
+      "demo":""
+    },
+    {
+      "id": 2,
+      "pname": "Ride Share",
+      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "ptool1": "Spring Boot",
+      "ptool2": "Java",
+      "ptool3": "ReactJS",
+      "ptool4": "",
+      "git": "",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "pname": "Tutorly",
+      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "ptool1": "Kotlin",
+      "ptool2": "Android Studio",
+      "ptool3": "Firebase",
+      "ptool4": "Cloud Storage",
+      "git": "",
+      "demo": ""
+    },
+    {
+      "id": 4,
+      "pname": "Portfolio v1",
+      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "ptool1": "ReactJS",
+      "ptool2": "CSS",
+      "ptool3": "",
+      "ptool4": "",
+      "git": "",
+      "demo": ""
+    }
+]

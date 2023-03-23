@@ -1,0 +1,18 @@
+@font-face {
+    font-family: shapiro;
+    src: url(../../fonts/Shapiro\ 95\ Super\ Wide.otf);
+}
+
+.line {
+  
+    position: relative;
+    float: right;
+    margin: 30px;
+    border-bottom: 1px solid var(--content-color);
+}
+
+
+#company-name{
+font-family: shapiro;
+text-transform: uppercase;
+}

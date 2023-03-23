@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@font-face {
+    font-family: shapiro;
+    src: url(../../fonts/Shapiro\ 95\ Super\ Wide.otf);
+}
+
+:root {
+  --background-color: rgb(6, 11, 25);
+  --border-color: rgb(255, 255, 255, 0.1);
+  --highlight-color: rgb(126, 87, 194);
+  --text-color:rgb(255, 255, 255);
+  --content-color:#aba3c7;
+}
+
+.i-profile{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+justify-self: center;  
+align-items: end;
+  min-height: 100vh;
+  padding: 3rem;
+  z-index: -1;
+  mask-image: rgba(126,87,194,1);
+}
+
+.blob {
+  background-image: url("../../images/pic.png");
+box-shadow: rgba(126, 87, 194, 0.661) 0px 10px 390px;
+  background-size: 100%;
+  background-position: center center;
+  animation: morph 6s linear infinite alternate ;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+  width: 22vmax;
+  height: 22vmax;
+  
+}
+
+.blob2{
+   top: 25%;
+    right: 5%;
+    position: absolute;
+    animation: morph 6s linear infinite alternate ;
+    border: 5px solid var(--highlight-color);
+    transform: translate(-10%, -10%);
+    background: linear-gradient(
+        to right bottom,
+        rgba(126,87,194, 0.9),
+        rgba(6,11,25, 0.1)
+    );
+    will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+    box-shadow: rgba(126, 87, 194, 0.661) 0px 10px 390px;
+      width: 32vmax;
+  height: 32vmax;
+   z-index: -1;
+   opacity: 0.3;
+}
+
+@keyframes morph {
+  0% {border-radius: 45% 60% 80% 40% / 62% 35% 70% 42%;} 
+  100% {border-radius: 40% 60%;} 
+}
+
+#home-container{
+  padding-top: 6%;
+}
+
+#content{
+  color: var(--content-color);
+  font-family: 'Sono';
+}
+
+.circle1 {
+  top: 30%;
+    right: 15%;
+    transform: translate(-10%, -10%);
+    box-shadow: rgba(126, 87, 194, 0.661) 0px 10px 390px;
+    background: var(--highlight-color);
+    background: linear-gradient(
+        to right bottom,
+        rgba(126,87,194, 0.9),
+        rgba(6,11,25, 0.1)
+    );
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    backdrop-filter: blur(1rem);
+}
+
+.intext-links{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: var(--highlight-color);
+}
+
+.intext-links::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--highlight-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.intext-links:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#top-head{
+font-family:shapiro;
+text-transform: uppercase;
+color: var(--text-color);
+padding-bottom: 10px;
+}
+
+.gradient{
+  background-image: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  background-size: cover;
+  filter: blur(900px);
+}
+
+.connect{
+  background-color:  var(--background-color);
+  border:1px solid var(--highlight-color);
+  border-radius: 5px;
+  transition: 0.3s;
+   border: 1px solid var(--highlight-color);
+  color: var(--text-color);
+    padding: 20px 30px;
+    text-transform:none;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: "Sono";
+}
+
+.connect:hover{
+background-color: rgb(126, 87, 194, 0.3);
+}
+
+.background {
+  color: white;
+  width: 480px;
+  top: 15%;
+    right: 5%;
+    position: absolute;
+    z-index: -1;
+  height: 440px;
+  border-radius: 15rem;
+  background: radial-gradient(
+      ellipse at 50% 50%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(ellipse at 70% 60%, var(--highlight-color) 0%, rgba(195, 224, 96, 0) 90%),
+    radial-gradient(ellipse at 30% 30%, var(--highlight-color) 0%, rgba(195, 224, 96, 0) 60%),
+    radial-gradient(
+      ellipse at bottom left,
+      var(--highlight-color) 0%,
+      rgba(0, 163, 203, 0) 70%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(18, 46, 119, 0) 0%,
+      rgba(18, 46, 119, 0) 75%,
+      #122e77 100%
+    ),
+    linear-gradient(
+      to right,
+      #625793 0%,
+      var(--highlight-color) 35%,
+      var(--highlight-color) 65%,
+      var(--content-color) 100%
+    );
+  background-blend-mode: lighten, saturation, screen, color, color-dodge,
+    multiply;
+  filter: blur(65px);
+  opacity: 60%;
+}
+
+a:hover ~ .cursor{
+  transform: scale(1.5);
+}
+
+.cursor{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 246, 231);
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+
+
+@media only screen and (max-width:650px){
+  .background {
+    width: 240px;
+    height: 240px;
+     top: 15%;
+    right: 0%;
+  }
+
+  #home-container{
+  padding-top: 20%;
+}
+
+}

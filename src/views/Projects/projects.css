@@ -1,0 +1,31 @@
+@font-face {
+    font-family: shapiro;
+    src: url(../../fonts/Shapiro\ 95\ Super\ Wide.otf);
+}
+
+
+#project-card {
+    transition: 0.2s ease-in-out;
+}
+
+#project-title{
+    transition: 0.2s ease-in-out;
+    font-family: shapiro;
+    text-transform: uppercase;
+}
+
+#project-card:hover{
+    transform: translate(0, -10px);
+}
+
+#project-card:hover #project-title{
+    color:var(--highlight-color)
+}
+
+.git-link{
+    color: var(--text-color)
+}
+
+.git-card{
+    text-decoration: none;
+}

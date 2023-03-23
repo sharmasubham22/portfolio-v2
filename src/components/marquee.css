@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@font-face {
+    font-family: shapiro;
+    src: url(../fonts/Shapiro\ 95\ Super\ Wide.otf);
+}
+
+:root {
+  --background-color: rgb(6, 11, 25);
+  --border-color: rgb(255, 255, 255, 0.1);
+  --highlight-color: rgb(126, 87, 194);
+  --text-color:rgb(255, 255, 255);
+}
+
+.marquee {
+
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  text-transform: uppercase;
+  font-family: shapiro;
+  margin: -2%;
+  margin-top: 100px;
+  padding: 40px;
+  color: var(--text-color);
+  font-size: 24px;
+  border: 1px solid var(--border-color);
+  height: 35px;
+  overflow-x: hidden;
+
+}
+
+.marquee:hover{
+    background-color: rgba(126, 87, 194, 0.1);
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
