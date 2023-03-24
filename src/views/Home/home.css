@@ -162,7 +162,7 @@ background-color: rgb(126, 87, 194, 0.3);
 }
 
 .background {
-  color: white;
+  /* color: white; */
   width: 480px;
   top: 15%;
     right: 5%;
