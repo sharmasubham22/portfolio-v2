@@ -13,7 +13,7 @@ function Work() {
           id="page-head"
           fontSize={{
             lg: 42,
-            sm:32,
+            sm:36,
             xs: 26,
           }}
           sx={{ py: 8, display: "flex" }}
@@ -42,7 +42,7 @@ function Work() {
                   gutterBottom
                   fontSize={{
                     lg: 32,
-                    sm:28,
+                    sm:32,
                     xs: 22,
                   }}
                   id="company-name"
@@ -112,7 +112,7 @@ function Work() {
                   gutterBottom
                   fontSize={{
                     lg: 32,
-                    sm:28,
+                    sm:32,
                     xs: 22,
                   }}
                   id="company-name"

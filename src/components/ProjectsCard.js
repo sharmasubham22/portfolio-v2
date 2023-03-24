@@ -30,12 +30,15 @@ export default function ProjectCard(props) {
             color="var(--content-color)"
             sx={{ float: "right" }}
           >
-            
-              <FontAwesomeIcon icon={faGithub} style={{ fontSize: "24px" }} />
+            <FontAwesomeIcon icon={faGithub} style={{ fontSize: "24px" }} />
           </Typography>
           <Typography
             gutterBottom
-            variant="h4"
+            fontSize={{
+              lg: 32,
+              sm: 32,
+              xs: 22,
+            }}
             id="project-title"
             color="var(--text-color)"
             component="div"

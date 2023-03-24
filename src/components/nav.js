@@ -58,7 +58,9 @@ const toggleTheme = (e)=>{
           {routes
             .filter((route) => route.name)
             .map((route) => (
-              <a className="routes-link" href={route.path}>{route.name}</a>
+              <a className="routes-link" href={route.path}>
+                {route.name}
+              </a>
             ))}
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FontAwesomeIcon icon={faXmark} />
@@ -97,7 +99,7 @@ const toggleTheme = (e)=>{
           </div>
         </nav>
         <button className="nav-btn" onClick={showNavbar}>
-          <FontAwesomeIcon icon={faBars} />
+          <i class="bx bx-menu-alt-right"></i>
         </button>
       </header>
     </div>

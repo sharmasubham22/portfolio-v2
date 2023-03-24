@@ -2,7 +2,7 @@
     {
       "id":1,
       "pname": "Halifax Foodie",
-      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "pdetails": "Halifax Foodie is a multi-cloud based serverless food delivery system. It is designed using serverless technologies to process data (large-scale data). Halifax Foodie provides customization feature, and additional services for restaurant owners, and limited services to customers.",
       "ptool1": "ReactJS",
       "ptool2": "NodeJS",
       "ptool3": "AWS",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "pname": "Ride Share",
-      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "pdetails": "A Spring Boot and React application called Ride Share which provided a car-pooling service. It was completed following the design patterns and SOLID principles. Ride Share project helped with the strong understanding of OOPS concepts and Test-Driven Development. Deployed on Heroku.",
       "ptool1": "Spring Boot",
       "ptool2": "Java",
       "ptool3": "ReactJS",
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "pname": "Tutorly",
-      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "pdetails": "Tutorly is an android mobile application. It is a e-learning application with features like finding teachers near you, assignments creation, submission, grading along with a traditional e-learning application features. Working with android studio was a new experience when worked on this project. ",
       "ptool1": "Kotlin",
       "ptool2": "Android Studio",
       "ptool3": "Firebase",
@@ -34,8 +34,19 @@
     },
     {
       "id": 4,
-      "pname": "Portfolio v1",
-      "pdetails": "Townscript is a cloud-based event management solution. It is designed for a variety of industries including education, entertainment, travel and sports. The solution supports various types of events such as conferences, reunions, workshops and training.",
+      "pname": "Portfolio",
+      "pdetails": "My Personal portfolio which I created to highlight my potential in the field of web design and development. As compared to last iteration of portfolio, I tried to create a better version by enhancing UI and the UX elements of the portfolio website. I am very passionate about creating modern websites.",
+      "ptool1": "ReactJS",
+      "ptool2": "CSS",
+      "ptool3": "",
+      "ptool4": "",
+      "git": "",
+      "demo": ""
+    },
+    {
+      "id": 4,
+      "pname": "Test Portfolio",
+      "pdetails": "This was the first portfolio that I created. I was still learning how to work around with the new technologies. Sometimes I succeeded, sometimes I failed. But I kept on gaining experience from each instance. ",
       "ptool1": "ReactJS",
       "ptool2": "CSS",
       "ptool3": "",
@@ -44,3 +55,4 @@
       "demo": ""
     }
 ]
+

@@ -199,11 +199,15 @@ function Skills() {
                 </ListItem>
                 <ListItem alignItems="flex-start" id="list-item">
                   <ListItemAvatar>
-                    <img
+                    {/* <img
                       src="https://img.icons8.com/color/512/spring-logo.png"
                       alt="sb"
                       style={{ width: "48px" }}
-                    />
+                    /> */}
+                    <i
+                      class="bx bxl-spring-boot"
+                      style={{ fontSize: "48px" }}
+                    ></i>
                   </ListItemAvatar>
                   <ListItemText
                     primary="Spring Boot"
@@ -295,11 +299,12 @@ function Skills() {
               >
                 <ListItem alignItems="flex-start" id="list-item">
                   <ListItemAvatar>
-                    <img
+                    {/* <img
                       src="https://seeklogo.com/images/A/azure-sql-database-logo-D7A32C9CD9-seeklogo.com.png"
                       alt="sql"
                       style={{ width: "36px" }}
-                    />
+                    /> */}
+                    <i class="bx bxs-data" style={{ fontSize: "48px" }}></i>
                   </ListItemAvatar>
                   <ListItemText
                     primary="SQL"
@@ -315,11 +320,12 @@ function Skills() {
                 </ListItem>
                 <ListItem alignItems="flex-start" id="list-item">
                   <ListItemAvatar>
-                    <img
+                    {/* <img
                       src="https://www.tutorialsteacher.com/Content/images/home/mongodb.svg"
                       alt="mon"
                       style={{ width: "48px" }}
-                    />
+                    /> */}
+                    <i class="bx bxl-mongodb" style={{ fontSize: "48px" }}></i>
                   </ListItemAvatar>
                   <ListItemText
                     primary="MongoDB"
@@ -355,11 +361,12 @@ function Skills() {
                 </ListItem>
                 <ListItem alignItems="flex-start" id="list-item">
                   <ListItemAvatar>
-                    <img
+                    {/* <img
                       src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png"
                       alt="fb"
                       style={{ width: "48px" }}
-                    />
+                    /> */}
+                    <i class="bx bxl-firebase" style={{ fontSize: "48px" }}></i>
                   </ListItemAvatar>
                   <ListItemText
                     primary="Firebase"
@@ -443,11 +450,15 @@ function Skills() {
                 </ListItem>
                 <ListItem alignItems="flex-start" id="list-item">
                   <ListItemAvatar>
-                    <img
+                    {/* <img
                       src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Emblem.png"
                       alt="gcp"
                       style={{ width: "62px" }}
-                    />
+                    /> */}
+                    <i
+                      class="bx bxl-google-cloud"
+                      style={{ fontSize: "48px" }}
+                    ></i>
                   </ListItemAvatar>
                   <ListItemText
                     primary="Google Cloud Platform"
