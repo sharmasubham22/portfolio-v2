@@ -199,10 +199,7 @@ a:hover ~ .cursor{
 
 @media only screen and (max-width:650px){
   .background {
-    width: 240px;
-    height: 240px;
-     top: 15%;
-    right: 0%;
+   display: none;
   }
 
   #home-container{
