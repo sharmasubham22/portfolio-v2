@@ -164,12 +164,12 @@ nav{
  
 }
 
-.social{
+#social{
     font-size: larger;
     transition: 0.3s ease;
 }
 
-.social:hover{
+#social:hover{
   transform: scale(1.5);
     color: var(--highlight-color);
 } 
@@ -234,7 +234,7 @@ nav{
     font-size: 34px;
 }
 
-.social{
+#social{
     color: var(--text-color);
     font-size: 24px;
     padding: 20px;
@@ -244,7 +244,7 @@ nav{
     transition: 0.5s ease;
 }
 
-.social:hover{
+#social:hover{
     transform: scale(0.8);
     opacity: 1;
 }

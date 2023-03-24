@@ -70,17 +70,20 @@ const toggleTheme = (e)=>{
               href="https://www.linkedin.com/in/subham-sharma-137985128/"
               target="_blank"
             >
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 className="social"
                 icon={faLinkedinIn}
                 href="#"
-              />
+              /> */}
+              <i class="bx bxl-linkedin" id="social"></i>
             </a>
             <a href="https://github.com/sharmasubham22" target="_blank">
-              <FontAwesomeIcon className="social" icon={faGithub} />
+              <i class="bx bxl-github" id="social"></i>
+              {/* <FontAwesomeIcon className="social" icon={faGithub} /> */}
             </a>
             <a href="https://twitter.com/subh_sharma22" target="_blank">
-              <FontAwesomeIcon className="social" icon={faTwitter} />
+              <i class="bx bxl-twitter" id="social"></i>
+              {/* <FontAwesomeIcon className="social" icon={faTwitter} /> */}
             </a>
           </div>
           <div id="resume" className="nav-section">
