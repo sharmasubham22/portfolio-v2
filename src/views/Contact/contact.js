@@ -90,17 +90,20 @@ const form = useRef();
               href="https://www.linkedin.com/in/subham-sharma-137985128/"
               target="_blank"
             >
-              <FontAwesomeIcon
+              <i class="bx bxl-linkedin" id="social2"></i>
+              {/* <FontAwesomeIcon
                 className="social2"
                 icon={faLinkedinIn}
                 href="#"
-              />
+              /> */}
             </a>
             <a href="https://github.com/sharmasubham22" target="_blank">
-              <FontAwesomeIcon className="social2" icon={faGithub} />
+              <i class="bx bxl-github" id="social2"></i>
+              {/* <FontAwesomeIcon className="social2" icon={faGithub} /> */}
             </a>
             <a href="https://twitter.com/subh_sharma22" target="_blank">
-              <FontAwesomeIcon className="social2" icon={faTwitter} />
+              <i class="bx bxl-twitter" id="social2"></i>
+              {/* <FontAwesomeIcon className="social2" icon={faTwitter} /> */}
             </a>
           </Box>
         </Box>
@@ -110,7 +113,7 @@ const form = useRef();
             <br />
             <input
               type="text"
-              name='fullName'
+              name="fullName"
               placeholder="What is your name?"
               className="form-input"
             />
@@ -119,7 +122,7 @@ const form = useRef();
             <br />
             <input
               type="email"
-              name='email'
+              name="email"
               placeholder="What is your email id"
               className="form-input"
               required
@@ -128,7 +131,7 @@ const form = useRef();
             <label className="input-label">Message</label>
             <br />
             <textarea
-            name='message'
+              name="message"
               placeholder="Please enter your message.."
               className="form-message"
               required
@@ -137,7 +140,7 @@ const form = useRef();
             <button type="submit" className="form-submit">
               Submit
             </button>
-            <div>{result ? <Result/> : null}</div>
+            <div>{result ? <Result /> : null}</div>
           </form>
         </Box>
       </Box>

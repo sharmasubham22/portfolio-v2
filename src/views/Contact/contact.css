@@ -85,7 +85,7 @@ padding-top: 10%;
       border: 1px solid var(--highlight-color);
 }
 
-.social2{
+#social2{
     color: var(--text-color);
     font-size: 18px;
     margin-left: 20px;
@@ -97,7 +97,7 @@ padding-top: 10%;
     opacity: 0.4;
 }
 
-.social2:hover{
+#social2:hover{
     transform: scale(0.8);
     opacity: 1;
 }
