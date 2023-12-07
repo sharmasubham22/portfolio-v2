@@ -59,7 +59,7 @@ function Home() {
           </Typography>
           Hello <span class="material-symbols-outlined">waving_hand</span> I am
           Subham.
-          <br />I love to design, develop and deploy. Attending{" "}
+          <br />I love to design, develop and deploy. Masters gradusate from{" "}
           <Link
             to="https://www.dal.ca/"
             target="_blank"

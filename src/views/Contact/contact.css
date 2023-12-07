@@ -1,19 +1,19 @@
 @font-face {
-    font-family: shapiro;
-    src: url(../../fonts/Shapiro\ 95\ Super\ Wide.otf);
+  font-family: shapiro;
+  src: url(../../fonts/Shapiro\ 95\ Super\ Wide.otf);
 }
 
 .grid-container2 {
-    position: static;
+  position: static;
   display: grid;
   grid-template-columns: 2fr 1.5fr;
   grid-column-gap: 5%;
-grid-template-areas: 'content1 content2';
-padding-top: 10%;                   
+  grid-template-areas: 'content1 content2';
+  padding-top: 10%;                   
 }
 
 .grid-item-01{
-    grid-area: content1;
+  grid-area: content1;
 }
 .grid-item-02 {
   grid-area: content2;
@@ -35,8 +35,8 @@ padding-top: 10%;
 }
 
 .form-message{
-    width: 100%;
-    box-sizing: border-box;;
+  width: 100%;
+  box-sizing: border-box;;
   padding: 20px;
   margin: 10px 0 20px 0;
   border-radius: 12px;
@@ -49,30 +49,29 @@ padding-top: 10%;
 }
 
 .form-input:hover, .form-message:hover {
-    
-    border:1px solid rgb(126,87,194);
+  border:1px solid rgb(126,87,194);
 
 }
 
 .form-input:focus, .form-message:focus {
-    outline: none !important;
-    border:1px solid rgb(126,87,194);
+  outline: none !important;
+  border:1px solid rgb(126,87,194);
 
 }
 
 .input-label{
-    font-family: "Sono";
-    text-transform: uppercase;
-    color: var(--content-color);
+  font-family: "Sono";
+  text-transform: uppercase;
+  color: var(--content-color);
 }
 
 .form-submit{
   background-Color: var(--background-color);
   width: 100%;
   margin-top: 20px;
-    border: 1px solid var(--highlight-color);
-    font-size: 20px;
-    font-family: "Sono";
+  border: 1px solid var(--highlight-color);
+  font-size: 20px;
+  font-family: "Sono";
     border-radius: 50px;
     color: var(--text-color);
     padding: 10px 40px;
